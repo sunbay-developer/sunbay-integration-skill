@@ -1,0 +1,14 @@
+# 对外公开仓库仅保留 LICENSE、README.md、SKILL.md
+# 以下为内部文件，不纳入版本库
+
+# 内部设计与计划文档
+/docs/
+
+# IDE / 工具配置
+.idea/
+.kiro/
+
+# 常见系统 / 编辑器杂项
+.DS_Store
+*.swp
+*~

@@ -69,13 +69,32 @@ the docs site, so the skill does not go stale as the product evolves.
 ## Who it's for
 
 Developers and product managers (ISO / ISV / merchants) building on SUNBAY who use
-an AI IDE (Kiro, Cursor, Codex, Copilot, Claude Code, …). Hand your assistant this
-repo's address and it installs the skill itself.
+an AI IDE (Kiro, Cursor, Codex, Copilot, Claude Code, …). See **Install** below for
+the one-command setup and other options.
 
 ## Install
 
-Give your AI assistant this repository's GitHub URL and ask it to install the skill.
-It will read the box at the top of this README and place `SKILL.md` in the right spot.
+The authoritative source is this repository: **`sunbay-developer/sunbay-integration-skill`**.
+Install from here only — don't trust copies republished under a different owner.
+
+### 1. Skills CLI (recommended)
+
+```bash
+npx skills add sunbay-developer/sunbay-integration-skill
+```
+
+Update it later with:
+
+```bash
+npx skills update sunbay-integration
+```
+
+### 2. Hand the repo URL to your AI assistant
+
+Give your AI assistant this repository's GitHub URL and ask it to install the skill,
+for example:
+
+> Install the agent skill from https://github.com/sunbay-developer/sunbay-integration-skill
 
 ## Documentation site
 
